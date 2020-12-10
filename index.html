@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="main">
+        <form id="info-form" class="main-form" >
+            <div class="form-item" id="fname">
+                <label>First Name</label>
+                <input type="text" name="fname" placeholder="name"  />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="lname">
+                <label>Last Name</label>
+                <input type="text" name="lname" placeholder="name" />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="input-email">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="enter email" />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="input-country">
+                <label>Country</label>
+                <input type="text" name="country" placeholder="enter country" />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="input-zip">
+                <label>Zip Code</label>
+                <input type="text" name="zip" placeholder="enter code" />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="input-password">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="enter password" />
+                <span class="error"></span>
+            </div>
+            <div class="form-item" id="confirm-password">
+                <label>Confirm Password</label>
+                <input type="password" name="password" placeholder="comfirm password" />
+                <span class="error"></span>
+            </div>
+
+
+
+            <button type="button" name="submit" id="input-submit" placeholder="Submit" onclick=" submitEntry ()">
+                Submit
+            </button>
+        </form>
+
+        <script src="./main.js"></script>
+    </div>
+</body>
+
+</html>

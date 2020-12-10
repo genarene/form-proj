@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20%;
+}
+
+.main-form {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(21, 21, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  font-weight: 200;
+}
+
+.main-form label {
+  font-family: "Nerko One", cursive;
+  color: whitesmoke;
+  /* font-size: 1.3rem; */
+  margin: 3%;
+}
+
+.main-form input {
+  font-family: "Nerko One", cursive;
+  font-size: 1.1rem;
+
+  width: 60%;
+  height: 2rem;
+  text-align: center;
+  background-color: rgb(250, 242, 242);
+}
+
+.main-form button {
+  border: none;
+  outline: none;
+  margin-top: 10%;
+  margin-bottom: 5px;
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  background-color: cyan;
+  font-weight: bold;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.error {
+  color: crimson;
+}
